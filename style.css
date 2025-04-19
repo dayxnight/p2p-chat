@@ -1,57 +1,63 @@
 * {
-margin:0;
-padding:0;
-border:1px solid red;
+  margin: 0;
+  padding: 0;
 }
+
 body {
   font-family: sans-serif;
-height:100vh;
-width:100%;
+  height: 100vh;
+  width: 100%;
   background: lavender;
 }
+
 .container {
-display:flex;
-flex-direction:column;
+  display: flex;
+  flex-direction: column;
 }
+
 .header {
-padding:10px;
-display: flex;
-flex-direction:row;
-gap:10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }
+
 #chat-box {
   padding: 10px;
-  flex:1;
+  flex: 1;
   overflow-y: scroll;
   background: #fff;
-display:flex;
-flex-direction:column;
-gap:10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
+
 .input-group {
-padding:10px;
-padding-bottom:20px;
-display:flex;
-flex-direction:row;
-gap:10px;
+  padding: 10px 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }
+
 input {
   padding: 10px;
-font-size:20px;
-  flex:1;
-border-radius:30px;
+  font-size: 20px;
+  flex: 1;
+  border-radius: 30px;
 }
+
 button {
   padding: 10px;
-font-size: 20px;
-  background: violet
+  font-size: 20px;
+  background: violet;
   color: lightgreen;
   border: none;
   border-radius: 30px;
 }
+
 p {
-padding: 10px;
-font-size:20px;
-border-left: 3px solid green;
-background:whitesmoke;
+  padding: 10px;
+  font-size: 20px;
+  border-left: 3px solid green;
+  background: whitesmoke;
 }
