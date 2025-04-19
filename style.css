@@ -27,7 +27,7 @@ gap:5px;
   overflow-y: scroll;
   background: #fff;
 }
-input-group {
+.input-group {
 padding:10px;
 display:flex;
 flex-direction:row;
