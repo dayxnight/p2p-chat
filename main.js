@@ -1,6 +1,8 @@
 // 1. Cek localStorage buat username
 let username = localStorage.getItem('username');
 
+const shownMessages = new Set();
+
 if (!username) {
   // 2. Kalau belum ada, minta lewat prompt
   username = prompt('Masukkan username kerajaanmu, bangsawan:');
