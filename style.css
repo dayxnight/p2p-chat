@@ -1,27 +1,37 @@
 body {
   font-family: sans-serif;
-  max-width: 600px;
-  margin: 50px auto;
-  background: #f9f9f9;
-  padding: 20px;
-  border-radius: 20px;
+height:100vh;
+  background: lavender;
+}
+.container {
+display:flex;
+flex-direction:column;
+}
+.header {
+padding:10px;
+display: flex;
+flex-direction:row;
+gap:5px;
 }
 #chat-box {
-  border: 1px solid #ccc;
   padding: 10px;
-  height: 300px;
+  flex:1;
   overflow-y: scroll;
-  margin-bottom: 10px;
   background: #fff;
+}
+input-group {
+padding:10px;
+display:flex;
+flex-direction:row;
 }
 input {
   padding: 8px;
-  margin: 5px;
+  flex:1;
 }
 button {
   padding: 10px;
-  background: #4f46e5;
+  background: violet
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 30px;
 }
