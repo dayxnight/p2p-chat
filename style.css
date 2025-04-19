@@ -39,12 +39,13 @@ gap:10px;
 }
 input {
   padding: 10px;
-font-size:37px;
+font-size:40px;
   flex:1;
 border-radius:30px;
 }
 button {
   padding: 10px;
+font-size: 40px;
   background: violet
   color: white;
   border: none;
