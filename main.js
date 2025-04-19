@@ -33,3 +33,11 @@ chat.map().on(data => {
     chatBox.appendChild(p);
   }
 });
+
+function changeIdentity() {
+  const newUsername = prompt('Masukkan identitas barumu, wahai pengelana:');
+  if (newUsername) {
+    localStorage.setItem('username', newUsername);
+    location.reload(); // Refresh biar username baru langsung kepake
+  }
+}
