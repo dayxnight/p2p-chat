@@ -30,11 +30,16 @@ function send() {
 // 5. Dengerin pesan masuk dari peer lain
 chat.map().on(data => {
   if (data && data.user && data.msg) {
+    const uniqueId = `${data.user}:${data.msg}:${data.timestamp}`;
+    if (shownMessages.has(uniqueId)) return; // Udah ditampilkan
+    shownMessages.add(uniqueId);
+
     const p = document.createElement('p');
     p.textContent = `[${data.user}] ${data.msg}`;
     chatBox.appendChild(p);
   }
 });
+
 
 function changeIdentity() {
   const newUsername = prompt('Masukkan identitas barumu, wahai pengelana:');
