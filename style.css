@@ -12,8 +12,6 @@ width:100%;
 .container {
 display:flex;
 flex-direction:column;
-height:100vh;
-width:100%;
 }
 .header {
 padding:10px;
@@ -39,21 +37,21 @@ gap:10px;
 }
 input {
   padding: 10px;
-font-size:40px;
+font-size:20px;
   flex:1;
 border-radius:30px;
 }
 button {
   padding: 10px;
-font-size: 40px;
+font-size: 20px;
   background: violet
-  color: white;
+  color: lightgreen;
   border: none;
   border-radius: 30px;
 }
 p {
 padding: 10px;
-font-size:27px;
+font-size:20px;
 border-left: 3px solid green;
 background:whitesmoke;
 }
