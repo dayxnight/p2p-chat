@@ -6,12 +6,18 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="container">
+<div class="header">
   <h1>Kerajaan Rizz Chat</h1>
+<button onclick="changeIdentity()">Ganti Identitas</button>
+
+</div>
   <div id="chat-box"></div>
-  
+  <div class="input-group">
   <input type="text" id="message" placeholder="Ketik pesan..." />
   <button onclick="send()">Kirim</button>
-
+</div>
+</div>
   <script src="https://cdn.jsdelivr.net/npm/gun/gun.js"></script>
   <script src="gun-config.js"></script>
   <script src="main.js"></script>
