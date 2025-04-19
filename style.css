@@ -23,7 +23,9 @@ width:100%;
   flex-direction: row;
   gap: 10px;
 }
-
+.header h1 {
+flex:1;
+}
 #chat-box {
   padding: 10px;
   flex: 1;
