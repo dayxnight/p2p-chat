@@ -19,7 +19,7 @@ width:100%;
 padding:10px;
 display: flex;
 flex-direction:row;
-gap:5px;
+gap:10px;
 }
 #chat-box {
   padding: 10px;
@@ -29,13 +29,16 @@ gap:5px;
 }
 .input-group {
 padding:10px;
+padding-bottom:20px;
 display:flex;
 flex-direction:row;
+gap:10px;
 }
 input {
-  padding: 8px;
-font-size:30px;
+  padding: 10px;
+font-size:37px;
   flex:1;
+border-radius:30px;
 }
 button {
   padding: 10px;
