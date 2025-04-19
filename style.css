@@ -26,6 +26,7 @@ gap:10px;
   flex:1;
   overflow-y: scroll;
   background: #fff;
+display:flex;
 }
 .input-group {
 padding:10px;
@@ -46,4 +47,10 @@ button {
   color: white;
   border: none;
   border-radius: 30px;
+}
+p {
+padding: 10px;
+font-size:27px;
+border-left: 3px solid green;
+background:whitesmoke;
 }
