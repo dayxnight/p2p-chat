@@ -86,7 +86,7 @@ button:hover {
 p {
   padding: 5px;
   font-size: 16px;
-  background: #030303;
+  background: #050505;
   color: violet; /* Ensure text is readable on slateblue background */
 width: fit-content;
   word-wrap: break-word;
