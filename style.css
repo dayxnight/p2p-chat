@@ -63,13 +63,13 @@ input {
   border-radius: 30px;
   background: black;
 outline:none;
-  color: violet;
+  color: blueviolet;
 }
 
 button {
   padding: 10px 15px;
   font-size: 16px;
-  background: violet;
+  background: blueviolet;
   font-weight: bold;
   color: white;
   border: none;
@@ -86,9 +86,9 @@ button:hover {
 p {
   padding: 10px;
   font-size: 16px;
-  background: #101010;
-  color: violet; /* Ensure text is readable on slateblue background */
+  background: #121212;
+  color: blueviolet; /* Ensure text is readable on slateblue background */
 width: fit-content;
-border-left: 20px solid blueviolet;
+border-left: 2px solid blueviolet;
   word-wrap: break-word;
 }
