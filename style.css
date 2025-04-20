@@ -62,7 +62,7 @@ input {
   font-size: 16px;
   flex: 1;
   border: none;
-  border-radius: 5px;
+  border-radius: 30px;
   background: black;
 outline:none;
   color: violet;
@@ -75,7 +75,7 @@ button {
   font-weight: bold;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 30px;
   cursor: pointer;
   transition: background 0.3s, color 0.3s;
 }
