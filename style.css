@@ -26,14 +26,14 @@ background:black;
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-  background-color: slateblue;
+  background-color: #121212;
 }
 
 .main {
   flex: 1;
   display: flex;
   flex-direction: column;
-  background: #010101;
+  background: black;
 }
 
 #chat-box {
@@ -44,7 +44,6 @@ background:black;
   display: flex;
   flex-direction: column;
   gap: 10px;
-  border: 1px solid #ccc;
 }
 
 .input-group {
@@ -53,7 +52,7 @@ padding-bottom:20px;
   display: flex;
   flex-direction: row;
   gap: 10px;
-  background-color: slateblue;
+  background-color: #121212;
 }
 
 input {
@@ -89,5 +88,6 @@ p {
   font-size: 16px;
   background: #171717;
   color: violet; /* Ensure text is readable on slateblue background */
+width: fit-content;
   word-wrap: break-word;
 }
