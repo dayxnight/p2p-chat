@@ -9,17 +9,20 @@
 </head>
 <body>
   <div class="container">
+    <!-- Header Section -->
     <header class="header">
       <h1>Kerajaan Rizz Chat</h1>
       <button onclick="changeIdentity()" aria-label="Ganti Identitas">Ganti Identitas</button>
     </header>
-    <main>
-      <div id="chat-box"></div>
-      <div class="input-group">
-        <input type="text" id="message" placeholder="Ketik pesan..." aria-label="Pesan Anda" />
-        <button onclick="send()" aria-label="Kirim Pesan">Kirim</button>
-      </div>
-    </main>
+
+    <!-- Main Section -->
+    <main id="chat-box"></main>
+
+    <!-- Input group Section -->
+    <div class="input-group">
+      <input type="text" id="message" placeholder="Ketik pesan..." aria-label="Pesan Anda" />
+      <button onclick="send()" aria-label="Kirim Pesan">Kirim</button>
+    </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/gun/gun.js"></script>
   <script src="gun-config.js"></script>
